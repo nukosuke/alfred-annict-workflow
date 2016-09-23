@@ -1,2 +1,3 @@
 build:
-	go build -o ./bin/annict .
+	go get ./...
+	go build -o ./bin/alfred-annict-workflow .
