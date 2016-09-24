@@ -56,6 +56,7 @@ func main() {
 				}
 
 				res, _, err := client.Works.List(&annict.WorksListOptions{
+					Fields: []string{"id", "title", "media_text", "season_name_text"},
 					FilterTitle: query[0],
 				})
 
@@ -83,7 +84,10 @@ func main() {
 			Action: func(c *cli.Context) error {
 				client, err := newAnnictClient()
 
-				res, _, err := client.Me.Works.List(&annict.MeWorksListOptions{FilterStatus: "watching"})
+				res, _, err := client.Me.Works.List(&annict.MeWorksListOptions{
+					Fields: []string{"id", "title", "media_text", "season_name_text"},
+					FilterStatus: "watching",
+				})
 
 				if err != nil {
 					return err
