@@ -1,0 +1,2 @@
+# alfred-annict-workflow
+AlfredのAnnictワークフロー
