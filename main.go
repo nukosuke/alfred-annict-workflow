@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/nukosuke/go-annict/annict"
-	"github.com/pascalw/go-alfred"
+	"github.com/nukosuke/go-alfred"
 	"github.com/spf13/viper"
 	"github.com/urfave/cli"
 	"golang.org/x/oauth2"
@@ -104,7 +104,7 @@ func main() {
 					})
 				}
 
-				list.Print()
+				list.PrintJSON()
 				return nil
 			},
 		},
