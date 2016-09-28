@@ -10,7 +10,8 @@
 
 # インストール
 
-- [ダウンロード](https://github.com/nukosuke/alfred-annict-workflow/releases/download/v0.0.0-alpha/Annict.alfredworkflow)  
+- [ダウンロード for Alred3](https://github.com/nukosuke/alfred-annict-workflow/releases/download/v0.0.0-alpha/Annict3.alfredworkflow)  
+- [ダウンロード for Alred2](https://github.com/nukosuke/alfred-annict-workflow/releases/download/v0.0.0-alpha/Annict2.alfredworkflow)  
 - [詳細ページ](https://nukosuke.github.io/alfred-annict-workflow/)
 
 
