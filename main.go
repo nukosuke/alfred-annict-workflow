@@ -104,7 +104,7 @@ func main() {
 					})
 				}
 
-				list.PrintJSON()
+				list.Print()
 				return nil
 			},
 		},
